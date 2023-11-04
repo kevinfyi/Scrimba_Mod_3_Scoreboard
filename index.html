@@ -1,0 +1,54 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <main class="main-container">
+            <!-- <div class="item-container timer-container">
+                <h3>TIMER</h3>
+            </div> -->
+            
+            <div class="home-guest-container">
+                <div class="item-container home-container">
+                    <h3>HOME</h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/500px-Los_Angeles_Lakers_logo.svg.png" alt="Logo" class="images">
+                    <p class="score-box" id="home-count">0</p>
+                    <div>
+                    <button class="btn" onclick="homeAdd1()">+1</button>
+                    <button class="btn" onclick="homeAdd2()">+2</button>
+                    <button class="btn" onclick="homeAdd3()">+3</button>
+                    </div>
+                </div>
+                
+                <div class="item-container timer-container">
+                    
+                    <h3>TIMER</h3>
+                    <p class="score-box" id="timer">00:00</p>
+                    <h3>QTR</h3>
+                    <p class="score-box" id="qtr-count">0</p>
+                    <div>
+                    <button class="btn" onclick="qtrAdd1()">+1</button>
+                    </div>
+                </div>
+                
+                <div class="item-container guest-container">
+                    <h3>GUEST</h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/25/New_York_Knicks_logo.svg/480px-New_York_Knicks_logo.svg.png" alt="Logo" class="images">
+                    <p class="score-box" id="guest-count">0</p>
+                    <div>
+                    <button class="btn" onclick="guestAdd1()">+1</button>
+                    <button class="btn" onclick="guestAdd2()">+2</button>
+                    <button class="btn" onclick="guestAdd3()">+3</button>
+                    </div>
+                </div>
+                
+            </div>
+                <div class="timeKeeper">
+                    <button id="startButton">Start</button>
+                    <button id="stopButton">Stop</button>
+                    <button id="resetButton">Reset</button>
+                </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
